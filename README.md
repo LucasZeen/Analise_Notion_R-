@@ -8,8 +8,13 @@ Um projeto focado em extrair e analisar dados diretamente do Notion, facilitando
 - [ ] Análise e formatação dos dados
 
 ## 🛠️ Tecnologias Utilizadas
+<<<<<<< HEAD
 - [Linguagem usada: R]
 - [Biblioteca usada: notionAPI]
+=======
+- [Linguagem usada, ex: Python]
+- [Biblioteca usada, ex: Pandas, Requests]
+>>>>>>> f651f7489e0a36d4ddec271196c7f7b8f12606b8
 
 ## ⚙️ Como Instalar e Rodar
 
