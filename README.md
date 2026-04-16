@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ======================================================================📊 Notion Analysis📊======================================================================
 
 Um projeto focado em extrair e analisar dados diretamente do Notion, facilitando a visualização de métricas e organização de informações.
@@ -38,3 +39,7 @@ Um projeto focado em extrair e analisar dados diretamente do Notion, facilitando
    
    
    ======================================================================📊 Notion Analysis📊======================================================================
+=======
+# Analise_Notion_R-
+Codigo para analise de dados NOTION 
+>>>>>>> 5f15be6a08ac6ad98978ff5008fd5f854fc2ea7a
