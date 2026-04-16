@@ -1,5 +1,9 @@
 library(httr2)
 
+#Limpa a memoria antes de rodar o script 
+rm(list = ls())
+
+
 # Carrega as credenciais do .Renviron
 token <- Sys.getenv("NOTION_TOKEN")
 database_id <- Sys.getenv("NOTION_DATABASE_ID")
