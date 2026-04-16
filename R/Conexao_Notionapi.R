@@ -1,3 +1,4 @@
+install.packages("httr2")
 library(httr2)
 
 token <- Sys.getenv("NOTION_TOKEN")
@@ -17,3 +18,4 @@ resposta <- request("https://api.notion.com/v1/databases/") |>
 cat("Status:", resp_status(resposta), "\n")
 cat("Resposta completa:\n")
 print(resp_body_json(resposta))
+
