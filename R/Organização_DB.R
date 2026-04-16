@@ -86,5 +86,9 @@ df <- do.call(rbind, lapply(dados$results, function(row) {
 df$data <- as.Date(df$data)
 
 print(df)
+<<<<<<< HEAD
 
 
+=======
+saveRDS(df, "df_organizado.rds")
+>>>>>>> 651cef447e9dd11f6e4c2c7223216b20b4e46420
