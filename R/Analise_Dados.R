@@ -8,4 +8,5 @@ library(janitor)
 library(DataExplorer)
 
 df <- readRDS("df_organizado.rds")
-table(df$disciplina)
+table(df$Projeto)
+plot_missing(df$disciplina,df$responsavel)
