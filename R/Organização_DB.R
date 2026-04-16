@@ -24,8 +24,8 @@ dados <- resp_body_json(resposta)
 df <- do.call(rbind, lapply(dados$results, function(row) {
   props <- row$properties
   data.frame(
-    projeto     = props$`Numero do Projeto`$select$name %||% NA,
-    responsavel = props$Responsavel$people[[1]]$name %||% NA,
+    Projeto     = props$Projeto$select$name %||% NA,
+    responsavel = props$Responsável$people[[1]]$select$name %||% NA,
     data        = props$Data$date$start %||% NA,
     tempo       = props$Tempo$number %||% NA,
     disciplina  = props$Disciplina$select$name %||% NA,
