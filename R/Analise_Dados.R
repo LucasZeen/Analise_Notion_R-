@@ -8,4 +8,4 @@ library(janitor)
 library(DataExplorer)
 
 df <- readRDS("df_organizado.rds")
-plot(df$Projeto,df$tempo)
+table(df$disciplina)

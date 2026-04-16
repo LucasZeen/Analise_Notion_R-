@@ -17,3 +17,4 @@ resposta <- request("https://api.notion.com/v1/search") |>
 dados <- resp_body_json(resposta)
 
 str(dados, max.level = 3)
+
