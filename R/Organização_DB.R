@@ -39,3 +39,4 @@ df$data <- as.Date(df$data)
 
 # Mostra o resultado
 print(df)
+

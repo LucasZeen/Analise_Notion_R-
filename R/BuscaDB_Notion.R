@@ -1,6 +1,8 @@
 install.packages("httr2")
 library(httr2)
 
+readRenviron(".Renviron")
+
 token <- Sys.getenv("NOTION_TOKEN")
 
 resposta <- request("https://api.notion.com/v1/search") |>
